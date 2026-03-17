@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 from torchvision import transforms
 from PIL import Image
+import time
 from model.convnextv2 import convnextv2_H, convnextv2_B, convnextv2_L, convnextv2_N, convnextv2_T
 
 transform = transforms.Compose([
@@ -12,7 +13,7 @@ transform = transforms.Compose([
 
 if __name__ == "__main__":
     # get weights from https://huggingface.co/PUMCH-Liang-lab/pandoras
-    weight_path = "./weight/Pandorza-B.pt"
+    weight_path = "./weight/Pandora-B.pt"
     model = convnextv2_B(Linear_only=False)
     # Remove the classification head; keep the feature extractor only
     model.convnextv2.head = nn.Sequential()

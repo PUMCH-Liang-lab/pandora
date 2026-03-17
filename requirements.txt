@@ -24,3 +24,4 @@ timm==1.0.20.dev0
 torchaudio==2.4.0+cu118
 transformers==4.46.3
 wheel==0.44.0
+pillow==9.4.0
