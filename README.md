@@ -111,7 +111,7 @@ if __name__ == "__main__":
 
 ---
 
-### Typical install time and expected run time for the demo
+### Typical Install Time and Expected Run Time for The Demo
 Installation of all environmental dependencies typically takes approximately 20 minutes.
 The total expected runtime of the feature extraction demo is about 1 second 
 (including initializing the model, loading the weights, and performing inference).
