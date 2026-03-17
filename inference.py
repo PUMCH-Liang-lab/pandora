@@ -27,5 +27,6 @@ if __name__ == "__main__":
     img = img.unsqueeze(0)
     with torch.inference_mode():
         _, features = model(img)
+    # features is a list that contains the feature outputs from each layer.
     for idx, feature in enumerate(features):
         print(f"{idx}th output feature shape: {feature.shape}")
