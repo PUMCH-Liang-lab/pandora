@@ -10,10 +10,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 from timm.models.layers import trunc_normal_, DropPath
 
-
-# from camel.model.Moe import SparseMoE,SoftMoELayerWrapper,PEER
-
-
 class LayerNorm(nn.Module):
     """ LayerNorm that supports two data formats: channels_last (default) or channels_first.
     The ordering of the dimensions in the inputs. channels_last corresponds to inputs with
