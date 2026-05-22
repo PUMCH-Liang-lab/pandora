@@ -2,7 +2,7 @@ import warnings
 import torch.nn.functional as F
 import torch
 import torch.nn as nn
-from model.camel_feature import Convnextv2_L_feature, Convnextv2_H_feature, Convnextv2_B_feature, Hiera_T_feature, \
+from model.feature import Convnextv2_L_feature, Convnextv2_H_feature, Convnextv2_B_feature, Hiera_T_feature, \
     Convnextv2_N_feature, Convnextv2_T_feature
 
 warnings.simplefilter("ignore")
