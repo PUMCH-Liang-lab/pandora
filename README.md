@@ -6,7 +6,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.4.0%2Bcu118-ee4c2c?logo=pytorch)](https://pytorch.org/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![License](https://creativecommons.org/licenses/by-nc-nd/4.0/)](LICENSE)
 
 </div>
 
